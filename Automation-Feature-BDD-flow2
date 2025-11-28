@@ -1,0 +1,58 @@
+Scenario: Success Create Hazard Report and Complete Follow-up Task
+
+
+  Given the user opens the Hazard menu in the Mobile App
+  Then the Hazard page shows the list of existing hazard reports
+
+  When the user taps the Report Hazard or New Hazard button
+  Then the app opens the Hazard Reporting Form
+
+  When the user selects a Location
+  Then the dropdown opens and the user can select one location, and the selected value appears
+
+  When the user selects a Sublocation
+  Then the dropdown opens and the user can select one sublocation, and the selected value appears
+
+  When the user selects an Area
+  Then the dropdown opens and the user can select one area, and the selected value appears
+
+  When the user inputs an Area Description
+  Then the text field accepts the input and may be left empty
+
+  When the user taps the Evidence Image Picker
+  Then the camera or gallery opens
+
+  When the user captures or chooses an image
+  Then the image preview is added to the Evidence field
+
+  When the user selects the PIC
+  Then the PIC field is automatically pre-filled with the reporter's name
+
+  When the user submits the Hazard report
+  Then the request is sent to the server and the system generates a hazard entry and a follow-up task
+
+  Then the PIC receives a notification for the follow-up task
+  And all users in the same area receive a hazard alert notification
+
+  When the PIC opens the Follow-up Task assigned to them
+  Then the task details screen appears
+
+  When the PIC visits the location and opens the Submit Follow-up screen
+  Then the follow-up submission form appears
+
+  When the PIC adds Evidence using the Image Picker
+  Then the camera or gallery opens
+
+  When the PIC selects the Resolution Date using the DateTime Picker
+  Then the DateTime picker opens and the selected date and time appear correctly
+
+  When the PIC taps the (+) button to add Co Observers
+  Then the system adds additional Select fields for more observers
+
+  When the PIC selects one or more Co Observers
+  Then the chosen observers appear as selected entries
+
+  When the PIC submits the follow-up task
+  Then the follow-up is successfully submitted to the server
+
+  Then the Direct Supervisor of the Area receives a notification indicating follow-up completion
