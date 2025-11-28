@@ -1,23 +1,23 @@
 Scenario name : Success Create Equipment Inspection Form
 
-No.	      Test Step	                                                Expected Result
-1	        Open the Hazard menu in Mobile App                        The Hazard page shows list of existing hazard reports
-2	        Tap Report Hazard / New Hazard button                     App opens the Hazard Reporting Form
-3	        Select Location (Mandatory)                               Dropdown opens, user can select 1 location; selected value appears
-4	        Select Sublocation (Mandatory)                            Dropdown opens, user can select 1 sublocation; selected value appears
-5	        Select Area (Mandatory)                                   Dropdown opens, user can select 1 area; selected value appears
-6	        Input Area Description (Optional)                         Text field accepts input (can be left empty)
-7	        Tap Evidence – Image                                      Picker	Camera/Gallery opens
-8	        Capture or choose an image                                Image preview added to Evidence field (mandatory fulfilled)
-9	        Select PIC (Mandatory, Preselect to reporter)             PIC field is auto-filled with the reporter’s name
-10	      Submit the Hazard report                                  Request is sent to server; system generates hazard entry and follow-up task
-11	      PIC receives notification                                 PIC gets notification for the follow-up task
-12	      All users in the same                                     Area receive hazard notification	Area users receive hazard alert notification
-13	      PIC opens the                                             Follow-up Task assigned to them	Task details screen appears
-14	      PIC visits location and opens                             Submit Follow-up	Follow-up submission form appears
-15	      Add Evidence (Image Picker)                               Camera/Gallery opens to add proof image
-16	      Select Resolution Date using DateTime Picker              DateTime picker opens; selected date/time appears correctly
-17	      Add CoObserver by tapping (+) button                      System adds additional Select fields for more observers
-18	      Select one or more Co Observers                           Observers appear as selected entries
-19	      Submit the follow-up task                                 Follow-up is successfully submitted to the server
-20	      Direct Supervisor of the Area receives notification       Supervisor gets notification indicating follow-up completion
+No.	      Test Step	                                               Expected Result
+1.        Open the Hazard menu in Mobile App                        The Hazard page shows list of existing hazard reports
+2.        Tap Report Hazard / New Hazard button                     App opens the Hazard Reporting Form
+3.       Select Location (Mandatory)                               Dropdown opens, user can select 1 location; selected value appears
+4.        Select Sublocation (Mandatory)                            Dropdown opens, user can select 1 sublocation; selected value appears
+5.        Select Area (Mandatory)                                   Dropdown opens, user can select 1 area; selected value appears
+6.        Input Area Description (Optional)                         Text field accepts input (can be left empty)
+7.        Tap Evidence – Image                                      Picker	Camera/Gallery opens
+8.        Capture or choose an image                                Image preview added to Evidence field (mandatory fulfilled)
+9.        Select PIC (Mandatory, Preselect to reporter)             PIC field is auto-filled with the reporter’s name
+10.       Submit the Hazard report                                  Request is sent to server; system generates hazard entry and follow-up task
+11.       PIC receives notification                                 PIC gets notification for the follow-up task
+12.       All users in the same                                     Area receive hazard notification	Area users receive hazard alert notification
+13.       PIC opens the                                             Follow-up Task assigned to them	Task details screen appears
+14.       PIC visits location and opens                             Submit Follow-up	Follow-up submission form appears
+15.       Add Evidence (Image Picker)                               Camera/Gallery opens to add proof image
+16.       Select Resolution Date using DateTime Picker              DateTime picker opens; selected date/time appears correctly
+17.       Add CoObserver by tapping (+) button                      System adds additional Select fields for more observers
+18.       Select one or more Co Observers                           Observers appear as selected entries
+19.       Submit the follow-up task                                 Follow-up is successfully submitted to the server
+20.       Direct Supervisor of the Area receives notification       Supervisor gets notification indicating follow-up completion
