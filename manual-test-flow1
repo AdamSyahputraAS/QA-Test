@@ -1,10 +1,10 @@
 Scenario name : Success Create Equipment Inspection Form
 
 No.      Test Step                                           Expected results
-1.       Open the Equipment Inspection menu	                 The Equipment Inspection page displays list of previous submissions
-2.       Tap the New Submission button	                     App opens the Equipment Inspection form page
-3.       App requests form schema from server	               Dynamic form fields are loaded based on the form code
-4.       Form Code field displayed	                         Form Code appears correctly on top of the form
+1.       Open the Equipment Inspection menu                  The Equipment Inspection page displays list of previous submissions
+2.       Tap the New Submission button                       App opens the Equipment Inspection form page
+3.       App requests form schema from server                Dynamic form fields are loaded based on the form code
+4.       Form Code field displayed                           Form Code appears correctly on top of the form
 5.       Input text fields (if available)	                   Text fields accept input with no issues
 6.	     Select date from Date Picker	                       Date picker opens and selected date appears in the field
 7.	     Open dropdown/select fields	                       Dropdown shows correct options and user can select 1 option
