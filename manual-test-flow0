@@ -16,7 +16,7 @@ No.     Test Step                                        Expected results
 
 Scenario name : Failed login with invalid data username
 
-No.      Test Step                                        Expected results
+No.     Test Step                                        Expected results
 1.      Open WeMine or WeMineOffice                      Show login page
 2.      Input username with invalid username             Field username will declined cause invalid data  
 
