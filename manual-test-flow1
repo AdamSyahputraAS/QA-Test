@@ -6,27 +6,27 @@ No.      Test Step                                           Expected results
 3.       App requests form schema from server                Dynamic form fields are loaded based on the form code
 4.       Form Code field displayed                           Form Code appears correctly on top of the form
 5.       Input text fields (if available)                    Text fields accept input with no issues
-6.	     Select date from Date Picker	                       Date picker opens and selected date appears in the field
-7.	     Open dropdown/select fields	                       Dropdown shows correct options and user can select 1 option
-8.	     Tap radio button options	                           Only one radio option can be selected at a time
-9.	     Tap Image Picker field	                             Camera/Gallery opens successfully
-10.	     Choose or capture an image	                         Image preview appears in the field
-11.	     Fill all required fields	                           Required fields show validation if left empty
-12.	     Submit the form	                                   App validates all fields, no errors shown
-13.	     App sends submission to server	                     API request is successful, form is stored
-14	     Redirected back to submission list	                 Newly submitted form appears in the list with correct timestamp
-15	     Close and reopen the app	                           All previously submitted data is still available and loaded correctly
+6.	     Select date from Date Picker                        Date picker opens and selected date appears in the field
+7.	     Open dropdown/select fields                         Dropdown shows correct options and user can select 1 option
+8.	     Tap radio button options                            Only one radio option can be selected at a time
+9.	     Tap Image Picker field                              Camera/Gallery opens successfully
+10.	     Choose or capture an image                          Image preview appears in the field
+11.	     Fill all required fields                            Required fields show validation if left empty
+12.	     Submit the form                                     App validates all fields, no errors shown
+13.	     App sends submission to server                      API request is successful, form is stored
+14	     Redirected back to submission list                  Newly submitted form appears in the list with correct timestamp
+15	     Close and reopen the app                            All previously submitted data is still available and loaded correctly
 
 
 Scenario name : Check max field of Inspection Form
 
 No.     Test Step                                            Expected results
-1.       Open the Equipment Inspection menu	                 The Equipment Inspection page displays list of previous submissions
-2.       Tap the New Submission button	                     App opens the Equipment Inspection form page
-3.       App requests form schema from server	               Dynamic form fields are loaded based on the form code
-4.       Form Code field displayed	                         Form Code appears correctly on top of the form
+1.       Open the Equipment Inspection menu                  The Equipment Inspection page displays list of previous submissions
+2.       Tap the New Submission button                       App opens the Equipment Inspection form page
+3.       App requests form schema from server                Dynamic form fields are loaded based on the form code
+4.       Form Code field displayed                           Form Code appears correctly on top of the form
 5.       Input field up to max of 50 fields                  Cannot add any more fields
-6.	     Submit the form	                                   App validates all fields, no errors shown
-7.	     App sends submission to server	                     API request is successful, form is stored
-8.       Redirected back to submission list	                 Newly submitted form appears in the list with correct timestamp
-9.	     Close and reopen the app	                           All previously submitted data is still available and loaded correctly
+6.	     Submit the form                                     App validates all fields, no errors shown
+7.	     App sends submission to server                      API request is successful, form is stored
+8.       Redirected back to submission list                  Newly submitted form appears in the list with correct timestamp
+9.	     Close and reopen the app                            All previously submitted data is still available and loaded correctly
