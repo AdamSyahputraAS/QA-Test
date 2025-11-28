@@ -1,6 +1,6 @@
 Scenario name : Success login with valid data user
 
-No.    Test Step                                       Expected results
+No.     Test Step                                        Expected results
 1.      Open WeMine or WeMineOffice                      Show login page
 2.      Input username with existing data                Field username accepting inputs
 3.      Hit button next or continue                      Apps will send request to /user/who
@@ -11,19 +11,19 @@ No.    Test Step                                       Expected results
 8.      Apps will fetch data for each endpoint           Progress bar updates for each endpoint is successfully processed
 9.      All master data has been downloaded              The progress bar reaches 100% and changes to 'Complete'
 10.     The app displays a prompt                        “Restart required to apply new master data”
-11.     Restart apps                                      After restarting, the user is directed to the Dashboard/Home Screen, and all master data is synchronized & ready to use            
+11.     Restart apps                                     After restarting, the user is directed to the Dashboard/Home Screen, and all master data is synchronized & ready to use            
 
 
 Scenario name : Failed login with invalid data username
 
-No.    Test Step                                       Expected results
+No.      Test Step                                        Expected results
 1.      Open WeMine or WeMineOffice                      Show login page
 2.      Input username with invalid username             Field username will declined cause invalid data  
 
 
 Scenario name : Failed login with invalid data password
 
-No.    Test Step                                       Expected results
+No.     Test Step                                        Expected results
 1.      Open WeMine or WeMineOffice                      Show login page
 2.      Input username with existing data                Field username accepting inputs
 3.      Hit button next or continue                      Apps will send request to /user/who
