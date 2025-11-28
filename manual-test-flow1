@@ -1,14 +1,32 @@
-Scenario name : Success login with valid data user
+Scenario name : Success Create Equipment Inspection Form
 
-No.    Test Step                                       Expected results
-1.      Open WeMine or WeMineOffice                      Show login page
-2.      Input username with existing data                Field username accepting inputs
-3.      Hit button next or continue                      Apps will send request to /user/who
-4.      If success apps shows Microsoft login            Microsoft login page shows field password  
-5.      Input with valid password                        Microsoft success validate credentials
-6.      Apps send request to /user/me                    Success get profile user
-7.      Apps send request for list of user               Success get list of user
-8.      Apps will fetch data for each endpoint           Progress bar updates for each endpoint is successfully processed
-9.      All master data has been downloaded              The progress bar reaches 100% and changes to 'Complete'
-10.     The app displays a prompt                        “Restart required to apply new master data”
-11.     Restart apps                                      After restarting, the user is directed to the Dashboard/Home Screen, and all master data is synchronized & ready to use            
+No.    Test Step                                             Expected results
+1.       Open the Equipment Inspection menu	                 The Equipment Inspection page displays list of previous submissions
+2.       Tap the New Submission button	                     App opens the Equipment Inspection form page
+3.       App requests form schema from server	               Dynamic form fields are loaded based on the form code
+4.       Form Code field displayed	                         Form Code appears correctly on top of the form
+5.       Input text fields (if available)	                   Text fields accept input with no issues
+6.	     Select date from Date Picker	                       Date picker opens and selected date appears in the field
+7.	     Open dropdown/select fields	                       Dropdown shows correct options and user can select 1 option
+8.	     Tap radio button options	                           Only one radio option can be selected at a time
+9.	     Tap Image Picker field	                             Camera/Gallery opens successfully
+10.	     Choose or capture an image	                         Image preview appears in the field
+11.	     Fill all required fields	                           Required fields show validation if left empty
+12.	     Submit the form	                                   App validates all fields, no errors shown
+13.	     App sends submission to server	                     API request is successful, form is stored
+14	     Redirected back to submission list	                 Newly submitted form appears in the list with correct timestamp
+15	     Close and reopen the app	                           All previously submitted data is still available and loaded correctly
+
+
+Scenario name : Check max field of Inspection Form
+
+No.    Test Step                                             Expected results
+1.       Open the Equipment Inspection menu	                 The Equipment Inspection page displays list of previous submissions
+2.       Tap the New Submission button	                     App opens the Equipment Inspection form page
+3.       App requests form schema from server	               Dynamic form fields are loaded based on the form code
+4.       Form Code field displayed	                         Form Code appears correctly on top of the form
+5.       Input field up to max of 50 fields                  Cannot add any more fields
+6.	     Submit the form	                                   App validates all fields, no errors shown
+7.	     App sends submission to server	                     API request is successful, form is stored
+8.       Redirected back to submission list	                 Newly submitted form appears in the list with correct timestamp
+9.	     Close and reopen the app	                           All previously submitted data is still available and loaded correctly
