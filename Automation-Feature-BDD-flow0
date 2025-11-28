@@ -1,0 +1,34 @@
+Scenario name : Success login with valid data user
+
+  Given the user opens WeMine or WeMineOffice
+  Then the login page is displayed
+
+  When the user inputs username with existing data
+  Then the username field should accept the input
+
+  When the user taps the Next or Continue button
+  Then the app sends a request to "/user/who"
+
+  When the request is successful
+  Then the Microsoft login page is displayed with the password field
+
+  When the user inputs a valid Microsoft password
+  Then Microsoft successfully validates the credentials
+
+  When the app sends a request to "/user/me"
+  Then the app successfully retrieves the user profile
+
+  When the app sends a request for the list of users
+  Then the app successfully retrieves the list of users
+
+  When the app fetches master data from each endpoint
+  Then the progress bar updates for every endpoint processed
+
+  When all master data has been downloaded
+  Then the progress bar reaches 100% and shows "Complete"
+
+  Then the app displays a prompt "Restart required to apply new master data"
+
+  When the user restarts the application
+  Then after restarting, the user is directed to the Dashboard or Home Screen
+  And all master data is synchronized and ready to use
