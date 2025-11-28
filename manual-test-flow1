@@ -5,7 +5,7 @@ No.      Test Step                                           Expected results
 2.       Tap the New Submission button                       App opens the Equipment Inspection form page
 3.       App requests form schema from server                Dynamic form fields are loaded based on the form code
 4.       Form Code field displayed                           Form Code appears correctly on top of the form
-5.       Input text fields (if available)	                   Text fields accept input with no issues
+5.       Input text fields (if available)                    Text fields accept input with no issues
 6.	     Select date from Date Picker	                       Date picker opens and selected date appears in the field
 7.	     Open dropdown/select fields	                       Dropdown shows correct options and user can select 1 option
 8.	     Tap radio button options	                           Only one radio option can be selected at a time
