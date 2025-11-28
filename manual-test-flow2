@@ -7,7 +7,7 @@ No.	      Test Step	                                                Expected Res
 4	        Select Sublocation (Mandatory)                            Dropdown opens, user can select 1 sublocation; selected value appears
 5	        Select Area (Mandatory)                                   Dropdown opens, user can select 1 area; selected value appears
 6	        Input Area Description (Optional)                         Text field accepts input (can be left empty)
-  7	        Tap Evidence – Image                                    Picker	Camera/Gallery opens
+7	        Tap Evidence – Image                                      Picker	Camera/Gallery opens
 8	        Capture or choose an image                                Image preview added to Evidence field (mandatory fulfilled)
 9	        Select PIC (Mandatory, Preselect to reporter)             PIC field is auto-filled with the reporter’s name
 10	      Submit the Hazard report                                  Request is sent to server; system generates hazard entry and follow-up task
