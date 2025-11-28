@@ -1,0 +1,46 @@
+Scenario: Success Create Equipment Inspection Form
+
+
+  Given the user opens the Equipment Inspection menu
+  Then the Equipment Inspection page displays the list of previous submissions
+
+  When the user taps the New Submission button
+  Then the app opens the Equipment Inspection form page
+
+  When the app requests the form schema from the server
+  Then the dynamic form fields are loaded based on the form code
+
+  Then the Form Code field is displayed correctly at the top of the form
+
+  When the user inputs text into any text fields
+  Then the text fields accept the input with no issues
+
+  When the user selects a date from the Date Picker
+  Then the selected date appears correctly in the field
+
+  When the user opens any dropdown/select field
+  Then the dropdown shows the correct options and the user can select one option
+
+  When the user taps on a radio button option
+  Then only one radio option is selected at a time
+
+  When the user taps the Image Picker field
+  Then the camera or gallery opens successfully
+
+  When the user chooses or captures an image
+  Then the selected image preview appears in the field
+
+  When the user fills all required fields
+  Then required fields show validation messages if left empty
+
+  When the user submits the form
+  Then the app validates all fields and no errors are shown
+
+  When the app sends the submission to the server
+  Then the API request is successful and the form is stored
+
+  Then the user is redirected back to the submission list
+  And the newly submitted form appears with the correct timestamp
+
+  When the user closes and reopens the app
+  Then all previously submitted data is still available and loaded correctly
