@@ -1,6 +1,6 @@
 Scenario name : Success Create Equipment Inspection Form
 
-No.    Test Step                                             Expected results
+No.      Test Step                                           Expected results
 1.       Open the Equipment Inspection menu	                 The Equipment Inspection page displays list of previous submissions
 2.       Tap the New Submission button	                     App opens the Equipment Inspection form page
 3.       App requests form schema from server	               Dynamic form fields are loaded based on the form code
@@ -20,7 +20,7 @@ No.    Test Step                                             Expected results
 
 Scenario name : Check max field of Inspection Form
 
-No.    Test Step                                             Expected results
+No.     Test Step                                            Expected results
 1.       Open the Equipment Inspection menu	                 The Equipment Inspection page displays list of previous submissions
 2.       Tap the New Submission button	                     App opens the Equipment Inspection form page
 3.       App requests form schema from server	               Dynamic form fields are loaded based on the form code
